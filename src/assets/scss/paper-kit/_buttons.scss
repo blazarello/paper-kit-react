@@ -199,6 +199,12 @@
 .btn-round{
     border-radius: 30px;
 }
+.btn-round:hover{
+    border-radius: 82px;
+    background: #743939;
+    box-shadow: inset 20px 20px 40px #2e1717,
+                inset -20px -20px 40px #ba5b5b;
+}
 .btn.btn-link:focus{
     box-shadow: none !important;
     text-decoration: none;

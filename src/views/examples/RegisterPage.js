@@ -22,8 +22,7 @@ import React from "react";
 import { Button, Card, Form, Input, Container, Row, Col } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-
+import IndexNavbar from "components/Navbars/IndexNavbar";
 function RegisterPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -34,11 +33,11 @@ function RegisterPage() {
   });
   return (
     <>
-      <ExamplesNavbar />
+      <IndexNavbar />
       <div
         className="page-header"
         style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")"
+          backgroundImage: "url(" + require("assets/img/gang-pic.jpg") + ")"
         }}
       >
         <div className="filter" />
@@ -98,8 +97,7 @@ function RegisterPage() {
         </Container>
         <div className="footer register-footer text-center">
           <h6>
-            © {new Date().getFullYear()}, made with{" "}
-            <i className="fa fa-heart heart" /> by Creative Tim
+            © {new Date().getFullYear()}, made by Blaize
           </h6>
         </div>
       </div>

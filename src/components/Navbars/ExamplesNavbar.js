@@ -116,7 +116,7 @@ function ExamplesNavbar() {
                 data-placement="bottom"
                 href="https://twitter.com/CreativeTim?ref=creativetim"
                 target="_blank"
-                title="Follow us on Twitter"
+                title="Follow me on Twitter"
               >
                 <i className="fa fa-twitter" />
                 <p className="d-lg-none">Twitter</p>
@@ -125,7 +125,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/wavybudapest"
                 target="_blank"
                 title="Like us on Facebook"
               >

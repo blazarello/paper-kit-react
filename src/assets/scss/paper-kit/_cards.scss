@@ -26,11 +26,17 @@
     &.page-carousel:hover,
     &.card-refine:hover,
     &.card-register:hover{
-        box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
-        -moz-transform: none;
+        border-radius: 17px;
+        background: linear-gradient(145deg, #b7b7b7, #9a9a9a);
+            -shadow:  30px 30px 59px #444444,
+             -30px -30px 59px #ffffff;
+        cursor:pointer;
+    }
+    &.card-register {
+        border-radius: 17px;
+        background: #7a7a7a;
+        box-shadow: inset 20px 20px 40px #444444,
+            inset -20px -20px 40px #ffffff;
     }
 
     a:not(.btn){
@@ -283,6 +289,7 @@
     h6{
         font-size: $font-size-small;
         margin: 0;
+        color: white;
     }
 
     .card-footer{

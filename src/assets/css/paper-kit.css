@@ -2951,6 +2951,7 @@ h6,
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.5em;
+  color: white;
 }
 
 p {
@@ -6117,7 +6118,7 @@ License - nucleoapp.com/license/
 }
 
 .card-register {
-  background-color: #ff8f5e;
+  background-color: rgb(0,0,0,0);
   border-radius: 8px;
   color: #fff;
   max-width: 350px;
@@ -8658,5 +8659,7 @@ td.rdtYear:hover {
   border-width: 0 0.4rem 0.4rem 0.4rem;
   border-bottom-color: #fff;
 }
+
+
 
 /*# sourceMappingURL=paper-kit.css.map */

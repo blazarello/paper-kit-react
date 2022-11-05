@@ -1,5 +1,5 @@
 .card-register {
-  background-color: #FF8F5E;
+  background-color: #000000;
   border-radius: 8px;
   color: #fff;
   max-width: 350px;
@@ -11,7 +11,8 @@
     margin-top: 15px;
   }
   & .card-title {
-    color: #B33C12;
+    color: #d63c04;
+    font: bold;
     text-align: center;
   }
   & .btn {
